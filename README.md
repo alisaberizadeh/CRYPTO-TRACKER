@@ -40,7 +40,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/CRYPTO-TRACKER.git
+https://github.com/alisaberizadeh/CRYPTO-TRACKER.git
 
 # Install dependencies
 npm install
