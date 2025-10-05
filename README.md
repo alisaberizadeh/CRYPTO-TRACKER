@@ -35,12 +35,6 @@
 
 ---
 
-## 📸 Screenshots
-
-![Crypto Tracker Preview](https://your-image-link.com/preview1.png)  
-![Crypto Tracker Preview](https://your-image-link.com/preview2.png)
-
----
 
 ## 💻 Installation & Run
 
