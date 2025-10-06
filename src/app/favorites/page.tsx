@@ -10,7 +10,7 @@ import { FaAngleRight, FaLink, FaRegHeart } from 'react-icons/fa6'
 import TableCoins from '../components/tableCoins/TableCoins'
 import Skeleton from '@mui/material/Skeleton'
 
-function page() {
+function Page() {
     const { favorites, handleFavorites } = useContext(FavoritesContext)
     const [coins, setCoins] = useState<ICoin[]>([]);
 
@@ -119,4 +119,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
