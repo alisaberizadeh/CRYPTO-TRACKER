@@ -2,7 +2,7 @@
 
 **CRYPTO-TRACKER** is an advanced application for **tracking cryptocurrency prices in real-time**, built with **Next.js** and **React**.
 
-🔗 [Live Demo](https://your-demo-link.com)
+🔗 [Live Demo](https://crypto-tracker-fwaf.vercel.app/)
 
 ---
 
