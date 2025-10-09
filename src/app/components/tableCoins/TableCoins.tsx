@@ -13,7 +13,6 @@ function TableCoins({children}:{children:React.ReactNode}) {
                                 <th className="px-4 py-3 border border-gray-800">24h %</th>
                                 <th className="px-4 py-3 border border-gray-800">7d %</th>
                                 <th className="px-4 py-3 border border-gray-800">Market Cap</th>
-                                <th className="px-4 py-3 border border-gray-800">Volume(24h)</th>
                                 <th className="px-4 py-3 border border-gray-800">Date Added</th>
                                 <th className="px-4 py-3 border border-gray-800"> Favorite</th>
                             </tr>
