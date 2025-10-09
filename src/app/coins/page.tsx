@@ -1,13 +1,14 @@
-import React from 'react'
-import CoinsList from '../components/coinsList/Coins'
+import React, { Suspense } from 'react';
+import CoinsList from '../components/coinsList/Coins';
 
-function page() {
+function Page() {
   return (
     <div>
-      <CoinsList />
-    
+      <Suspense fallback={<div className="text-center text-gray-400 mt-10"></div>}>
+        <CoinsList />
+      </Suspense>
     </div>
-  )
+  );
 }
 
-export default page
+export default Page;

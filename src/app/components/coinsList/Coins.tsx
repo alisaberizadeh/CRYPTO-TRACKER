@@ -210,7 +210,7 @@ function CoinsList() {
 
             {searchError && (
                 <div className="py-5 text-center">
-                    <h1 className="text-center text-lg mb-5">{searchError}</h1>
+                    <h1 className="text-center text-lg mb-5 text-white">{searchError}</h1>
                     <Link href="/coins" className=" px-3 py-2 bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 hover:bg-gradient-to-br text-white rounded disabled:opacity-50 cursor-pointer">
                         Go to Coins Page
                     </Link>
