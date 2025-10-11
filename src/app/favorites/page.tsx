@@ -90,7 +90,6 @@ function Page() {
                                             {item.quote.USD.percent_change_7d.toFixed(2)}%
                                         </td>
                                         <td className="px-4 py-3 border border-gray-800  text-gray-300">${Math.round(item.quote.USD.market_cap).toLocaleString()}</td>
-                                        <td className="px-4 py-3 border border-gray-800  text-gray-300">${Math.round(item.quote.USD.volume_24h).toLocaleString()}</td>
                                         <td className="px-4 py-3 border border-gray-800  text-gray-300">{item.date_added.slice(0, 10)}</td>
                                         <td className=" border border-gray-800  text-gray-300">
                                             <button className="text-xl cursor-pointer" onClick={() => handleFavorites(item.id)}>{favorites.includes(item.id) ? <FaHeart className="text-red-600" /> : <FaRegHeart />}</button>
